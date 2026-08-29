@@ -1,3 +1,4 @@
+import dogjump from "../assets/dogjump.jpg";
 function About() {
   return (
     <section id="about" className="bg-stone-50 py-20 sm:py-24 lg:py-32">
@@ -5,7 +6,7 @@ function About() {
         {/* Image */}
         <div className="overflow-hidden rounded-3xl">
           <img
-            src="/src/assets/dogjump.jpg"
+            src={dogjump}
             alt="Happy dog"
             className="h-[400px] w-full object-cover transition duration-500 hover:scale-105 sm:h-[500px]"
           />

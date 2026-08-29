@@ -1,3 +1,6 @@
+import schurpi from "../assets/schurpi.jpg";
+import mchurpi from "../assets/mchurpi.jpg";
+import puffed from "../assets/puffed.jpg";
 export const products = [
   {
     id: 1,
@@ -5,7 +8,7 @@ export const products = [
     size: "Original bar size",
     description:
       "A traditional Himalayan chew crafted for smaller dogs and everyday chewing.",
-    image: "/src/assets/schurpi.jpg",
+    image: schurpi,
   },
   {
     id: 2,
@@ -13,7 +16,7 @@ export const products = [
     size: "Flavoured ",
     description:
       "A firm, long-lasting Himalayan chew for dogs who love to keep chewing.",
-    image: "/src/assets/mchurpi.jpg",
+    image: mchurpi,
   },
   {
     id: 3,
@@ -21,6 +24,6 @@ export const products = [
     size: "Puffed",
     description:
       "crunchy and light, these treats are perfect for training and rewarding your dog.",
-    image: "/src/assets/puffed.jpg",
+    image: puffed,
   },
 ];
