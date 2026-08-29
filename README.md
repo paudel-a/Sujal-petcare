@@ -72,10 +72,13 @@ git clone https://github.com/paudel-a/Sujal-petcare.git
 
 ![Desktop Screenshot](./screenshots/desktop.png)
 
-### Products and FAQ
+### Products
 
-![Products and FAQ](./screenshots/products-faq.png)
+![Products ](./screenshots/products.png)
 
-### Mobile
+### Benefits
+![Benefits ](./screenshots/benefits.png)
 
-![Mobile Screenshot](./screenshots/mobile.png)
+### Contact and footer
+![Contact and footer  ](./screenshots/contactwithfooter.png)
+
