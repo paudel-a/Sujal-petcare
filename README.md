@@ -1,16 +1,81 @@
-# React + Vite
+# Sujal Petcare Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+This project is a frontend recreation of the Sujal Petcare website, developed as part of a Frontend Developer Intern technical task.
 
-Currently, two official plugins are available:
+The main goal was to recreate the website using React and Tailwind CSS while keeping the layout responsive and the components reusable.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Website
 
-## React Compiler
+https://sujal-petcare-one.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## GitHub Repository
 
-## Expanding the Oxlint configuration
+https://github.com/paudel-a/Sujal-petcare
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Tech Used
+
+- React.js
+- JavaScript (ES6+)
+- Tailwind CSS
+- Vite
+- Lucide React
+- Git & GitHub
+
+## Features
+
+- Responsive navbar
+- Mobile navigation menu
+- Hero section
+- About section
+- Why Churpi section
+- Benefits section
+- Product section
+- FAQ accordion
+- Contact form with basic validation
+- Responsive design for mobile, tablet and desktop
+- Hover effects and transitions
+
+## Project Structure
+
+The project is divided into reusable components such as:
+
+- Navbar
+- Hero
+- About
+- WhyChurpi
+- Benefits
+- FeatureCard
+- Products
+- ProductCard
+- FAQ
+- Contact
+- Footer
+
+Product, feature and FAQ information is kept separately in the `data` folder and passed to reusable components through props.
+
+## Challenges
+
+The main challenges were recreating the layout of the reference website while keeping the components reusable and responsive across different screen sizes.
+
+I also implemented the mobile navigation menu, FAQ accordion and contact form validation using React state.
+
+## Running the Project
+
+Clone the repository:
+
+```bash
+git clone https://github.com/paudel-a/Sujal-petcare.git
+
+## Screenshots
+
+### Desktop
+
+![Desktop Screenshot](./screenshots/desktop.png)
+
+### Products and FAQ
+
+![Products and FAQ](./screenshots/products-faq.png)
+
+### Mobile
+
+![Mobile Screenshot](./screenshots/mobile.png)
